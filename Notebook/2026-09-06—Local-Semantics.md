@@ -1,4 +1,14 @@
-# The Myth of Self-Hosted AI
+# Local Semantics (Post Script)
+
+Local inference doesn't often mean end-to-end local, as I've noticed many products marketed as Local AI while failing to be transparent about how one layer (hosting, inference, orchestration) is either their sole offer or where they fall short.
+
+`Runs Locally` becomes ambiguous when there's a cloud dependency. But a better question to ask is: Why is Local AI offered in this way? 
+
+---
+
+## Previous Version
+
+**The Myth of Self-Hosted AI**
 
 Prioritising and owning the layer of intelligence of the LLMs we run is now a trend. I love it. But we shouldn't ignore the vendor incentives.
  
