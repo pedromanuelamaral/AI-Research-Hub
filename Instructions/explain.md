@@ -1,24 +1,30 @@
 ---
-name: explained
-category: AI-Explained-Matrix
+name: explain
+category: explain-visual-dense
 metadata:
   author: github.com/pedromanuelamaral 
-  modified: 01-September-2026
-compatibility: Requires web-search, deep-research and model council of agents for parallel research phases
+  modified: 07-September-2026
+  tools: Requires Web-search and Deep-research
+  optional: If asked, separately add a separate code canvas file that acts as a user interactive active learning playground that takes the approach of making the user learn by osmosis in a sink or swim way.
 ---
-Create an integrated, accurate, explanatory and comparison of the topic-subject of question, using a multi-variable style of (pick the two that make the most sense for the subject:matrix/flowchart/venn-diagram/radar-chart), factoring in:
 
+Goal: Create a fully accurate explanation and comparison of the [topic]. Use two specific visual Mermaid layouts, factoring in a:
+
+Matrix Table (x-axis: topic; y-axis: comparison points)
     - [architecture]
     - [relevant context]
     - [traits]
     - [tradeoffs]
-    - [contraints]
-    - [missconceptions]
+    - [constraints]
+    - [misconceptions]
     - [intersections]
     - [core delta]
     - [key comparative divergence]
     - [best fit for]
-    - [underlying/hidder cost]
-    - [steelmaned case in it's favor]
-  
-Output Rules: [1] Zero conversational filler with no introductory or concluding remarks; [2] Depth and Brevity (high information density with concision); [3] Structure in sections: (I) The Big Picture {max:200-words-in-list-structure}; (II) Dense Breakdown {with-multi-variable-visual}.
+    - [underlying/hidden cost]
+    - [steelmaned case in its favour]
+
+Rules:
+1. No preamble, filler, closers or meaningless clutter (working memory is small)
+2. Information depth and practical conciseness (actionable, not just brief)
+3. First section should be "Start Here" (200 words maximum), followed by the last main section "Dense and Visual Explainer"
