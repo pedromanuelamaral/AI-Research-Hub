@@ -10,7 +10,7 @@ sendLoadingState: true
 includeAliasesInList: false
 
 macros:
-  "bin": "llama-server"
+  "bin": "/mise/shims/llama-server"
   "root": "/Users/pedroamaral/models"
   "cloud": "/Users/pedroamaral/Documents"
   "basic": "--tools all --ui-mcp-proxy"
