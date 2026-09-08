@@ -1,4 +1,20 @@
 {
+    "lab": "OpenBMB/",
+    "model": "MiniCPM5",
+    "parameters": "2B Dense",
+    "finetune": "Dingdust (Heretic)",
+    "quantisation": "Mradermacher",
+    "url": "https://huggingface.co/mradermacher/MiniCPM5-2B-heretic-GGUF"
+},
+{
+    "lab": "Inclusion AI",
+    "model": "Ling 3.0 Tiny",
+    "parameters": "Mixture of Experts 7.9B Total and 1.3B Active",
+    "finetune": "Trohrbaugh (Heretic)",
+    "quantisation": "Mradermacher",
+    "url": "https://huggingface.co/mradermacher/Ling-3.0-tiny-heretic-GGUF"
+},
+{
     "lab": "Inclusion AI",
     "model": "Ling 3.0 Tiny",
     "parameters": "Mixture of Experts 7.9B Total and 1.3B Active",
@@ -35,8 +51,10 @@
 {
     "lab": "Ornith AI",
     "model": "Ornith 1.5",
-    "parameters": "Dense 9B",
-    "url": "https://huggingface.co/ornith-ai/Ornith-1.5-9B-GGUF"
+    "parameters": "Dense 9B"",
+    "finetune": "Dingdust (Heretic)",
+    "quantisation": "Mradermacher",
+    "url": "https://huggingface.co/mradermacher/Ornith-1.5-9B-heretic-GGUF"
 },
 {
     "lab": "Ornith AI",
