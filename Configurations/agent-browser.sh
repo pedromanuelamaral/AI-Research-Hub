@@ -1,6 +1,6 @@
 PORT=8889
 HOST=127.0.0.1
-PROFILE="/Volumes/X-Drive/AI-Agent-Profile"
+PROFILE="/Volumes/X-Drive/AI-Agent-Profile" # Make sure https://browsermcp.io is manually connected 
 
 echo "Loading..."
 
@@ -22,3 +22,4 @@ done
 
 echo "Off & Timed out."
 exit 1
+
